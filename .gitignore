@@ -5,3 +5,15 @@ nvim
 
 spell/
 lazy-lock.json
+# Ignore plugin files
+plugin/packer_compiled.lua
+lazy-lock.json
+
+# Ignore cache and temporary files
+.cache/
+.local/
+.session.vim
+.netrwhist
+.undo/
+.swp
+.lock
